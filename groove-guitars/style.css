@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+	font-family: "Montserrat", sans-serif;
+	background-color: #ffffff;
+	margin: 0;
+}
+
+
+header{
+	text-align: center;
+	background-color: #cc6699;
+	color: #ffffff;
+	padding: 20px;
+	background: #22C1C3;
+background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+
+nav{
+	text-align: center;
+	border-top: 5px solid #ccccff;
+	background-color: #22c1c3;
+	border-bottom: 5px solid #ccccff;
+	padding: 10px;
+}
+
+main{
+	max-width: 1000px;
+	margin: 5px auto;
+	padding: 10px;
+  
+
+}
+nav ul{
+  list-style-type: none;
+	margin: 8px 0;
+	padding: 0;
+}
+nav a{
+  text-decoration: none;
+}
+nav li{
+	display: inline;
+	padding: 10px;
+
+	
+}
+
+nav a:link{
+  color: black;
+}
+nav a:visited{
+   color: black;
+}
+nav a:hover{
+  color:yellow;
+}
+nav a:active{
+  color: white;
+}
+.logo{
+	max-width: 275px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+
+}
+
+
+#home-hero{
+	background-image: url(images/guitars.jpg);
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#home-hero{
+	text-align: center;
+	color: #ff00fe;
+	text-shadow: 2px 2px 2px black;
+	margin: 0;
+	padding: 10px;
+	background-color: rgba(0,0,0,.5);
+	border-bottom: 5px solid black;
+}
+
+ table{
+  border-collapse: collapse;
+  margin: 0 auto;
+  border: 5px solid #000000;
+}
+
+
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+th{
+  background-color: #3366cc;
+  color: white;
+  padding: 10px;
+  border-bottom: 5px solid #000000;
+}
+td{
+  border: 1px solid #dddddd;
+  padding: 10px
+}
+a:link{
+	    color: #cc66ff;
+}
+a:visited{
+	    color: #cc66ff;
+}
+a:hover{
+	    color: light purple;
+}
+a:active{
+	    color: black;
+}
+input[type=text],
+imput[type=email],
+input[type=tel]{
+  background-color: #eeeeee;
+  
+}
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+	text-align: center;
+}
+
+textarea{
+	background-color: #eeeeee;
+	
+}
+input[type=submit]{
+  background-color: darkred;
+  color: white;
+  display: block;
+  text-align: center;
+}
+lable{
+	float:left;
+	width: 8em;
+	padding-right: 1em;
+}
+input{
+	margin-bottom: 1em;
+	display: block;
+	text-align: center;
+	display: center;
+}
+h1{
+	color: #488017;
+	font-size: 3.5em;
+	margin: 0;
+}
+h2{
+	background-color: #659CB5;
+	box-radius: 10px solid auto;
+	display:flex;
+	padding:5 px;
+	font-size: 2em;
+	font-weight: 100;
+}
+.float-right{
+	        float: right;
+	        max-width: 40%;
+	        max-heitht: auto;
+	        box-shadow: 20px;
+	        border: 10px solid #eeeeee;
+	        border-radius: 10px;
+	        margin: 5%;
+}
+footer{
+	 max-width: 2000px;
+	 margin: 30px auto;
+	 padding: 10px;
+	 font-style: italic;
+	 text-align: center;
+	 background: #74a3b8;
+background: linear-gradient(90deg,rgba(116, 163, 184, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+
+}
+h2{
+	font-size: 1.5em;
+}
+main,
+footer{
+	  width: 90%;
+}
+
+
+
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	
+}
+h2{
+	font-size: 1em;
+}
+.home-hero{
+   height: 125px;
+}
+.home-hero h1{
+	height: 125px;
+	font-size: 1.5em;
+	padding-top: 45px;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+nav li{
+	display: block;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	border-bottom: 1px solid gray;
+}
+.float-right{
+	display: none;
+}
+

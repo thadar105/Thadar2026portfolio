@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+	font-family: "Montserrat", sans-serif;
+	background-color: white;
+}
+
+
+header{
+	text-align: center;
+	
+	color: #000000;
+	background: #FFFFFF;
+text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+nav{
+	text-align: center;
+}
+
+main{
+	max-width: 1200px;
+	margin: 10px auto;
+	padding: 10px;
+
+}
+nav{
+  text-align: center;
+  background-color: #663300;
+  border-bottom: 3px solid #ffd11a;
+  border-top: 3px solid #ffd11a;
+  padding: 10px;
+}
+nav ul{
+	list-style-type: none;
+	margin: 8px 0;
+	padding: 0;
+
+}
+nav a{
+  text-decoration: none;
+}
+nav li{
+		display: inline;
+	 padding: 10px;
+  
+}
+
+nav a:link{
+  color: red;
+}
+nav a:visited{
+   color: red;
+}
+nav a:hover{
+  color:yellow;
+}
+nav a:active{
+  color:black;
+}
+
+body{
+	background-color: white;
+	font-family: "Montserrat", sans-serif;
+	margin:0;
+}
+footer{
+	text-align: center;
+	max-width: 1800px;
+	max-height: 300px;
+	margin: 30px auto;
+	padding: 30px auto;
+	
+	border-top: #000000 3px solid;
+	background-color: #cc9900;
+	border-bottom: #000000 3px solid;
+
+}	
+a:link{
+	    color: #cc66ff;
+}
+a:visited{
+	    color: #cc66ff;
+}
+a:hover{
+	    color: light purple;
+}
+a:active{
+	    color: black;
+}
+.fa{
+	font-size: 1.5em;
+	color: #000000 ;
+	-webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(209,181,50,0); 
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(209,181,50,0);
+	margin-top: 5px auto;
+
+}
+
+
+.hero-image{
+	border: 5px solid balck;
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
+  background-image: cover;
+}
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+    	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+    	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.fa-camera-retro{
+	font-size: 4em;
+}
+
+
+	
+
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+
